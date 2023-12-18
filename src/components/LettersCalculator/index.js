@@ -36,9 +36,7 @@ class LettersCalculator extends Component {
             />
           </div>
 
-          <div className="no_of_letters_container">
-            <p>{`No.of letters: ${count}`}</p>
-          </div>
+          <p className="result_para">{`No.of letters: ${count}`}</p>
         </div>
       </div>
     )
